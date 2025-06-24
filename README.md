@@ -61,28 +61,26 @@ ATM-Simulator-Sakshi/
 ## 🚀 How to Run the Project
 
 ### ✅ Prerequisites
-- Java JDK 8 or later  
-- MySQL Server or XAMPP  
-- Eclipse/IntelliJ IDE
+- Java JDK 8 or above  
+- MySQL Server & Workbench (or XAMPP)  
+- Eclipse or IntelliJ IDE
 
-### ⚙️ Setup Instructions
+### ⚙️ Steps
 
-1. **Download the Project**
-   - You can download the ZIP file from GitHub or clone it using:
-     ```
-     git clone https://github.com/sakshiphale/ATM-Simulator-Sakshi.git
-     ```
+1. **Download the Source Code**
+   - Click on **Code** → **Download ZIP**
+   - Extract the folder to your local machine
 
-2. **Import into IDE**
-   - Open Eclipse or IntelliJ  
-   - Import as Java Project
+2. **Import in Eclipse**
+   - File → Import → Java Project → Select this folder
 
-3. **Setup the Database**
-   - Create a MySQL database named: `bankmanagementsystem`
-   - Tables will be created automatically via JDBC if not present
+3. **Setup Database**
+   - Create a database `bankmanagementsystem`
+   - Import or run the SQL table scripts (or use `Conn.java` structure)
 
 4. **Run the Application**
-   - Start with `Signup.java` or `Login.java`
+   - Start from `Signup.java` or `Login.java`
+   - Enjoy the ATM experience!
 
 ---
 
