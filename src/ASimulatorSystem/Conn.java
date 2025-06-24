@@ -1,20 +1,24 @@
+/**
+ * Author: Sakshi Mahesh Phale
+ * Project: ATM Simulator System
+ */
+
 package ASimulatorSystem;
 
-import java.sql.*;  
+import java.sql.*;
 
-public class Conn{
+public class Conn {
     Connection c;
     Statement s;
-    public Conn(){  
-        try{  
-            Class.forName("com.mysql.cj.jdbc.Driver");  
-            c =DriverManager.getConnection("jdbc:mysql:///bankmanagementsystem","root","root");    
-            s =c.createStatement(); 
-           
-          
-            
-        }catch(Exception e){ 
+
+    public Conn() {
+        try {
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            c = DriverManager.getConnection("jdbc:mysql:///bankmanagementsystem", "root", "root");
+            s = c.createStatement();
+        } catch (Exception e) {
             System.out.println(e);
-        }  
-    }  
-}  
+        }
+    }
+}
+ 
