@@ -1,3 +1,6 @@
+// Image to ASCII Art Converter Utility
+// Developed by Sakshi Mahesh Phale
+// GitHub: https://github.com/sakshiphale
 
 package ASimulatorSystem;
 
