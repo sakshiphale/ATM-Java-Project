@@ -1,39 +1,40 @@
 
 # 🏧 ATM Simulator System
 
-> A desktop-based ATM simulation software built using Java Swing and MySQL.  
+> A fully functional desktop-based ATM simulator application built with Java Swing and MySQL.  
 > Developed by **Sakshi Mahesh Phale**.
 
 ---
 
 ## 📌 Project Overview
 
-This ATM Simulator System replicates the core functionalities of a real-world ATM machine. The application allows users to:
+This ATM Simulator System replicates the basic functionalities of an actual ATM machine. The user can:
 
-- 📝 Register and create a new bank account
-- 💳 Get a card number and 4-digit secure PIN
+- 📝 Open a new bank account
+- 💳 Receive a unique card number and secure 4-digit PIN
 - 💰 Deposit and withdraw cash
-- ⚡ Use Fast Cash and check balance
-- 📄 View Mini Statements
+- ⚡ Use Fast Cash for quick transactions
+- 📄 View transaction history (Mini Statement)
 - 🔐 Change ATM PIN
+- 📊 Check account balance
 
 ---
 
 ## 🛠️ Technologies Used
 
-| Technology | Description |
-|------------|-------------|
-| Java       | Core programming language (Java Swing for UI) |
-| MySQL      | Backend database for storing transactions & user data |
-| JDBC       | Java-Database Connectivity |
-| Git & GitHub | Version control & source code hosting |
+| Technology | Purpose |
+|------------|---------|
+| Java       | Core language for GUI and logic (Java Swing for UI) |
+| MySQL      | Relational database for storing user and transaction data |
+| JDBC       | For database connectivity between Java and MySQL |
+| Git & GitHub | For source control and version tracking |
 
 ---
 
 ## 📂 Project Structure
 
 ```
-ATM-Simulator/
+ATM-Simulator-Sakshi/
 ├── src/
 │   └── ASimulatorSystem/
 │       ├── Signup.java
@@ -51,6 +52,8 @@ ATM-Simulator/
 │       └── Practice.java
 ├── icons/
 │   └── atm.jpg, logo.jpg, etc.
+├── README.md
+├── LICENSE
 ```
 
 ---
@@ -58,59 +61,59 @@ ATM-Simulator/
 ## 🚀 How to Run the Project
 
 ### ✅ Prerequisites
-- Java JDK 8 or above  
-- MySQL Server & Workbench (or XAMPP)  
-- Eclipse or IntelliJ IDE
+- Java JDK 8 or later  
+- MySQL Server or XAMPP  
+- Eclipse/IntelliJ IDE
 
-### ⚙️ Steps
+### ⚙️ Setup Instructions
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/sakshiphale/ATM-Simulator-Sakshi.git
-   ```
+1. **Download the Project**
+   - You can download the ZIP file from GitHub or clone it using:
+     ```
+     git clone https://github.com/sakshiphale/ATM-Simulator-Sakshi.git
+     ```
 
-2. **Import in Eclipse**
-   - File → Import → Java Project → Select this folder
+2. **Import into IDE**
+   - Open Eclipse or IntelliJ  
+   - Import as Java Project
 
-3. **Setup Database**
-   - Create a database `bankmanagementsystem`
-   - Import or run the SQL table scripts (or use `Conn.java` structure)
+3. **Setup the Database**
+   - Create a MySQL database named: `bankmanagementsystem`
+   - Tables will be created automatically via JDBC if not present
 
 4. **Run the Application**
-   - Start from `Signup.java` or `Login.java`
-   - Enjoy the ATM experience!
+   - Start with `Signup.java` or `Login.java`
 
 ---
 
-## ✨ Features Demonstrated
+## ✨ Features Implemented
 
-- Java Swing GUI Design
-- JDBC MySQL Connectivity
-- Form Validation & User Input Handling
-- Object-Oriented Programming Concepts
-- Modular File Structure & Git Versioning
+- Interactive Java Swing GUI
+- JDBC MySQL integration
+- Modular Java architecture
+- Realistic ATM-like workflow
+- Form validations and error handling
 
 ---
 
-## 🙋‍♀️ About Me
+## 🙋‍♀️ Developer Info
 
 **Sakshi Mahesh Phale**  
-📚 B.E. in Computer Science (2021–2025)  
-💻 Aspiring Java & Web Developer  
-📍 India  
-🔗 [GitHub Profile](https://github.com/sakshiphale)
+🎓 B.E. Computer Science and Engineering (2021–2025)  
+💻 Passionate about Java and Web Development  
+🌐 GitHub: [sakshiphale](https://github.com/sakshiphale)  
 
 ---
 
-## 📸 Screenshots (Optional)
+## 📸 Screenshots
 
-You can add screenshots of:
-- Signup forms
-- Transaction screen
-- Deposit & Withdraw screen
+_You can add images like:_  
+- 🧾 Account registration form  
+- 💸 Transaction page  
+- 💳 Deposit/Withdraw UI
 
 ---
 
-## 📃 License
+## 📄 License
 
-This project is created for academic and learning purposes.
+This project is licensed under the [MIT License](LICENSE).
