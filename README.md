@@ -102,16 +102,3 @@ ATM-Simulator-Sakshi/
 🌐 GitHub: [sakshiphale](https://github.com/sakshiphale)  
 
 ---
-
-## 📸 Screenshots
-
-_You can add images like:_  
-- 🧾 Account registration form  
-- 💸 Transaction page  
-- 💳 Deposit/Withdraw UI
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
