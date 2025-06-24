@@ -1,3 +1,10 @@
+/**
+ * Author: Sakshi Mahesh Phale
+ * Project: ATM Simulator System
+ * File: Transactions.java
+ * Description: Provides the user interface for selecting different banking transactions.
+ */
+
 package ASimulatorSystem;
 
 import java.awt.*;
