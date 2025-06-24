@@ -1,8 +1,11 @@
 package ASimulatorSystem;
 
-// ATM Simulator Login Screen
-// Developed by Sakshi Mahesh Phale
-// GitHub: https://github.com/sakshiphale
+/**
+ * ATM Simulator Login Screen
+ * 
+ * Developed by Sakshi Mahesh Phale
+ * GitHub: https://github.com/sakshiphale
+ */
 
 import java.awt.*;
 import java.awt.event.*;
@@ -51,35 +54,25 @@ public class Login extends JFrame implements ActionListener {
         add(pf2);
 
         b1 = new JButton("SIGN IN");
-        b1.setBackground(Color.BLACK);
-        b1.setForeground(Color.WHITE);
-
         b2 = new JButton("CLEAR");
-        b2.setBackground(Color.BLACK);
-        b2.setForeground(Color.WHITE);
-
         b3 = new JButton("SIGN UP");
-        b3.setBackground(Color.BLACK);
-        b3.setForeground(Color.WHITE);
 
-        setLayout(null);
+        for (JButton btn : new JButton[]{b1, b2, b3}) {
+            btn.setBackground(Color.BLACK);
+            btn.setForeground(Color.WHITE);
+            btn.setFont(new Font("Arial", Font.BOLD, 14));
+            add(btn);
+        }
 
-        b1.setFont(new Font("Arial", Font.BOLD, 14));
         b1.setBounds(300, 300, 100, 30);
-        add(b1);
-
-        b2.setFont(new Font("Arial", Font.BOLD, 14));
         b2.setBounds(430, 300, 100, 30);
-        add(b2);
-
-        b3.setFont(new Font("Arial", Font.BOLD, 14));
         b3.setBounds(300, 350, 230, 30);
-        add(b3);
 
         b1.addActionListener(this);
         b2.addActionListener(this);
         b3.addActionListener(this);
 
+        setLayout(null);
         getContentPane().setBackground(Color.WHITE);
 
         setSize(800, 480);
