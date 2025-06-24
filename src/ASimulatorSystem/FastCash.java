@@ -1,3 +1,8 @@
+/**
+ * Author: Sakshi Mahesh Phale
+ * Project: ATM Simulator System
+ */
+
 package ASimulatorSystem;
 
 import java.awt.*;
