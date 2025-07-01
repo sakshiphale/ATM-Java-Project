@@ -84,21 +84,3 @@ ATM-Simulator-Sakshi/
 
 ---
 
-## ✨ Features Implemented
-
-- Interactive Java Swing GUI
-- JDBC MySQL integration
-- Modular Java architecture
-- Realistic ATM-like workflow
-- Form validations and error handling
-
----
-
-## 🙋‍♀️ Developer Info
-
-**Sakshi Mahesh Phale**  
-🎓 B.E. Computer Science and Engineering (2021–2025)  
-💻 Passionate about Java and Web Development  
-🌐 GitHub: [sakshiphale](https://github.com/sakshiphale)  
-
----
